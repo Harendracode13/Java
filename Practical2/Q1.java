@@ -1,7 +1,6 @@
 /*Write a program that generate 6*6 two-dimensional matrix, filled with 0‘s and 1‘s , 
 display the matrix, check every raw and column have an odd number‘s of 1‘s.*/
 
-
 package Practical2;
 
 // import java.util.Scanner;
@@ -33,7 +32,6 @@ public class Q1{
                 System.out.println();
             }
         
-    
             for(int i = 0 ; i < 6 ;i++){
                 if(row[i] % 2 == 1){
                     System.out.println("Row number " + (i +1)+ " has Odd number of 1's");
